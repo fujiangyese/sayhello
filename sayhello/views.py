@@ -1,6 +1,6 @@
-from __init__ import app, db
-from forms import HelloForm
-from models import Message
+from sayhello import app, db
+from sayhello.forms import HelloForm
+from sayhello.models import Message
 from flask import flash, redirect, url_for, render_template
 
 

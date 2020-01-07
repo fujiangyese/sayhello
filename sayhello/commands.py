@@ -1,4 +1,4 @@
-from __init__ import app, db
+from sayhello import app, db
 import click
 
 
